@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bbplugin-sample-validators"
+version = "0.1.0"
+description = "Sample bblocks validator plugins: ZIP integrity and WKT geometry"
+requires-python = ">=3.10"
+dependencies = [
+    "shapely",
+    "lxml",
+]
